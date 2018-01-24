@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Hjem</a></li>
+        <li><a href="about.html">Om Oss</a></li>
+        <li><a href="contact.html">Kontakt Oss</a></li>
+        <li><a href="project.html">Prosjekter</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Velkommen</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut arcu et leo varius pellentesque. Fusce finibus, nulla et pharetra rhoncus, enim nibh placerat mauris, non iaculis magna orci at tellus. Proin augue tellus, fringilla in molestie vitae, porttitor et diam. Nullam gravida elementum quam, id eleifend tellus elementum non. Nulla facilisi. Sed nisl sem, molestie sed facilisis et, pulvinar et turpis. Aenean lobortis tortor nec augue porttitor, vitae bibendum est efficitur. Cras quis odio lorem.
+
+Mauris eu mi congue, malesuada orci at, pulvinar tortor. Donec augue lectus, vulputate in metus quis, vestibulum tincidunt nibh. Sed quis erat condimentum, semper nisl in, pharetra massa. Integer et hendrerit dui. Quisque vel dolor ac lorem accumsan volutpat. Donec pellentesque non sapien in ornare. Phasellus ornare pulvinar tincidunt. Sed ultricies, justo sit amet aliquam tincidunt, nisl urna sollicitudin felis, sit amet porta enim magna et orci.</p>
+      <hr>
+      <h3>Hva kan du forvente å se her?</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque justo quis risus scelerisque, sit amet aliquet ipsum porttitor. Donec interdum scelerisque vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis congue, elit eu iaculis scelerisque, enim arcu luctus ligula, a ullamcorper enim lectus id sapien. Pellentesque augue diam, tristique ac metus vitae, tincidunt iaculis purus. Phasellus vel dapibus ex, ut posuere tellus. Duis volutpat lorem at ipsum consectetur, ac pellentesque nibh fermentum. Donec ante erat, faucibus vel commodo sed, condimentum sit amet sem.</p>
+	  <P>Morbi sit amet finibus enim. Vivamus ultricies gravida venenatis. Curabitur vitae volutpat elit, et eleifend magna. Nulla vestibulum elit a est sodales euismod. Aliquam erat volutpat. Integer rutrum justo nisl, a ullamcorper odio pellentesque a. Vivamus leo tellus, sollicitudin at ante eget, fermentum feugiat enim. Aliquam eleifend neque eget justo posuere, ut sagittis dolor sodales. Proin molestie, elit non maximus dictum, urna nulla congue libero, hendrerit faucibus ipsum risus vel justo. Sed non urna rutrum, imperdiet metus vel, tincidunt enim. Donec fermentum sem sed condimentum consequat. Duis orci diam, eleifend nec est commodo, tincidunt mattis turpis. Etiam quam enim, mattis in dolor eget, fermentum venenatis quam.</P>
+	  <P>Nam congue sit amet nulla at ultrices. Suspendisse pharetra rhoncus viverra. Vestibulum vitae condimentum sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor sed est non imperdiet. Integer a est sapien. Integer efficitur vehicula turpis, aliquet scelerisque orci fermentum tincidunt. Phasellus sit amet mauris nec sapien porttitor maximus. Phasellus aliquam tellus a dui varius porttitor. Sed nisi leo, finibus a enim at, pellentesque blandit sem. Praesent semper ornare nisl.</P>
+	  <P>Cras quis ligula facilisis ligula facilisis molestie. Suspendisse libero arcu, lobortis id mauris sit amet, aliquam ultricies nunc. Pellentesque suscipit ut mi sit amet rutrum. Donec libero ligula, ultrices eget vulputate ac, lacinia eget sapien. Suspendisse potenti. Sed vitae risus est. Quisque quis aliquam arcu. Etiam turpis est, rhoncus at velit a, consequat imperdiet urna. Vivamus auctor erat eu nibh sollicitudin, a pharetra nibh sodales. Nulla tincidunt malesuada purus nec viverra. Suspendisse cursus arcu nec felis hendrerit, vel egestas risus venenatis. Praesent a lorem tempus arcu pulvinar aliquam. Cras tristique ante metus, ut dignissim urna mattis vel. In posuere venenatis risus at malesuada. Integer ac odio ut justo ornare lacinia vel nec justo.</P>
+	  <P>Nullam scelerisque commodo purus vitae rhoncus. Mauris sed nisl sollicitudin, feugiat ligula id, scelerisque tortor. Donec non mauris viverra, ultricies orci vitae, fringilla magna. Pellentesque laoreet dolor non orci bibendum, eu rutrum nisl imperdiet. Donec et luctus sem, sit amet vestibulum dui. Ut ut sodales turpis, nec pulvinar nunc. Nullam ac odio non tortor facilisis aliquam auctor non arcu. Curabitur ullamcorper odio lacus, ac ornare augue faucibus non. Cras nisi urna, laoreet sit amet iaculis ac, finibus vel mi. Aliquam a diam malesuada, pharetra tortor nec, imperdiet est. Phasellus feugiat vulputate leo, in tristique enim interdum in. Duis sed mi non erat faucibus imperdiet nec eget tellus.</P>
+	  <P>Vivamus mattis est at metus aliquet, ace rhoncus erat accumsan. Ut a quam vel arcu ultricies dapibus at at erat. Sed at tellus mauris. Aenean purus elit, egestas a lacinia nec, suscipit nec dolor. Quisque tempor porttitor rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus finibus massa odio. Pellentesque convallis sagittis mi eget iaculis. Quisque vel consequat velit. Vestibulum efficitur pharetra augue, eget lobortis velit vestibulum aliquet. Ut turpis est, interdum vitae nunc quis, consectetur cursus ante. In dignissim ipsum odio, in mattis purus malesuada sed. Duis condimentum ornare odio eu volutpat.</P>
+	</div>
+    <div class="col-sm-2 sidenav">
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>© Jan Kristian Eide 2018 - All rights reserved.</p>
+  <P>Kontakt - 412 26 485</p>
+</footer>
+</body>
+</html>
